@@ -36,3 +36,7 @@ export user=<user>
 export passwordUser=<password>
 
 ./checkServersAuto.sh servers.txt commands.txt
+
+
+![Automation](https://github.com/Cesar642/AutomateCommandTerminal/assets/44422221/19f0e998-27ce-4e89-b678-0787dd0ddd36)
+
