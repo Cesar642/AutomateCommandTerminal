@@ -4,6 +4,8 @@
 
 This program allows to execute multiple commands into N servers at the same time. It uses JExpect library and connects to servers using ssh spawn threads.
 
+** __In current version the expect string to be expected from target servers is the \@\<hostname\>, for example [root@ubuntuhost4 ~]__
+
 - Inputs:
 File with commands to execute in the N target servers
 File with server names and passwords (optional) to connect to the target servers.
@@ -56,7 +58,7 @@ export passwordUser=<password>
 ├── jsch-0.1.55.jar
 └── NewExpectj.jar
 ```
-** Make sure the jdk directory, that can be downloaded from official Oracle, is placed on the working tree and that is correctly pointed in the checkServersAuto.sh script
+** __Make sure the jdk directory, that can be downloaded from official Oracle, is placed on the working tree and that is correctly pointed in the checkServersAuto.sh script__
 
 ---
 ## Reading log file:
