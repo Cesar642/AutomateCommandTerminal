@@ -1,0 +1,2 @@
+# AutomateCommandTerminal
+Multiprocess terminal executor
