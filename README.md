@@ -46,3 +46,14 @@ export passwordUser=<password>
 
 ![Automation](https://github.com/Cesar642/AutomateCommandTerminal/assets/44422221/19f0e998-27ce-4e89-b678-0787dd0ddd36)
 
+### Working tree directory
+```
+├── checkServersAuto.sh
+├── commons-logging-1.2.jar
+├── expectj-2.0.7.jar
+├── getDetailsOutput.sh
+├── jdk-21.0.1
+├── jsch-0.1.55.jar
+└── NewExpectj.jar
+```
+** Make sure the jdk directory, that can be downloaded from official Oracle, is placed on the working tree and that is correctly pointed in the checkServersAuto.sh script
