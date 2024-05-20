@@ -57,3 +57,14 @@ export passwordUser=<password>
 └── NewExpectj.jar
 ```
 ** Make sure the jdk directory, that can be downloaded from official Oracle, is placed on the working tree and that is correctly pointed in the checkServersAuto.sh script
+
+---
+## Reading log file:
+To read the log file created when running the program, use the getDetailsOutput.sh which allows to display 3 levels of information as follows:
+```
+-l 0 : Shows only the N target hosname servers where the commands have been executed. Useful to know how many servers have finished running all commands.
+-1 1 : Shows everything
+-l 2 : Shows everything pretty, showing a header of the server name like *************Server:<hostname>
+
+./getDetailsOutput.sh -f output_12-Nov-23_21_40_02.out -l 2
+```
