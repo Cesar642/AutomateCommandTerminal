@@ -70,3 +70,8 @@ To read the log file created when running the program, use the getDetailsOutput.
 
 ./getDetailsOutput.sh -f output_12-Nov-23_21_40_02.out -l 2
 ```
+### Execution
+
+![screenshot-4e159cbc](https://github.com/Cesar642/AutomateCommandTerminal/assets/44422221/448c792f-8dc9-466b-91b9-c48e9f51f720)
+![screenshot-a66164fe](https://github.com/Cesar642/AutomateCommandTerminal/assets/44422221/a5eb8de5-1d0b-4292-b0f1-091372481bb3)
+
